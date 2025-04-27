@@ -153,4 +153,7 @@ The application includes unit tests for key functionalities:
     python manage.py test importer
 
 ### Open Source Data License:
-Data (data.csv) has been downloaded from - https://github.com/octaprice/ecommerce-product-dataset/blob/main/README.md
+Data (data.csv) has been downloaded from 
+```bash
+https://github.com/octaprice/ecommerce-product-dataset/blob/main/README.md
+```
