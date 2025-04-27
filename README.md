@@ -20,27 +20,33 @@ EcomDjango is a Django-based e-commerce application that allows users to browse 
    cd ecom-django
 
 2. Create a virtual environment:
+    ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 4. Apply database migrations:
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
 
 5. Run the development server:
+    ```bash
     python manage.py runserver
 
 6. Access the application at http://127.0.0.1:8000.
 
 ### Database Migration Script
 To set up the database, run the following commands:
+    ```bash
     python [manage.py](http://_vscodecontentref_/1) makemigrations
     python [manage.py](http://_vscodecontentref_/2) migrate
 
 ### Project Structure
+```bash
 csv_import_project/
 │
 ├── csv_import_project/          # Project settings and configuration
@@ -66,6 +72,7 @@ csv_import_project/
 │   └── tests.py                 # Unit tests
 │
 └── [db.sqlite3](http://_vscodecontentref_/3)                   # SQLite database
+```
 
 ### Models
 1. User
