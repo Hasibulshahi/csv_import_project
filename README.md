@@ -86,8 +86,10 @@ csv_import_project/
 3. Order
     Fields: id, buyer_phone, product, quantity, order_date
     Purpose: Tracks orders placed by users.
+```
 
 ### Views
+```bash
 1. Register
     URL: /register/
     Allows users to register an account.
