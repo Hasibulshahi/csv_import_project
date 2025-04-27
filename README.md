@@ -40,10 +40,11 @@ EcomDjango is a Django-based e-commerce application that allows users to browse 
 6. Access the application at http://127.0.0.1:8000.
 
 ### Database Migration Script
+```bash
 To set up the database, run the following commands:
-    ```bash
     python [manage.py](http://_vscodecontentref_/1) makemigrations
     python [manage.py](http://_vscodecontentref_/2) migrate
+```
 
 ### Project Structure
 ```bash
@@ -75,6 +76,7 @@ csv_import_project/
 ```
 
 ### Models
+```bash
 1. User
     Fields: id, user_name, full_name, email, phone, user_type
     Purpose: Stores user information (admin or customer).
@@ -104,8 +106,10 @@ csv_import_project/
 6. Admin Dashboard
     URL: /admin_dashboard/
     Displays user and order statistics for admins.
+```
 
 ### Templates
+```bash
 1. product_list.html
     Displays a list of all products.
 2. product_detail.html
@@ -114,9 +118,10 @@ csv_import_project/
     Displays the logged-in user's order history.
 4. admin_dashboard.html
     Displays user and order statistics for admins.
-
+```
 
 ### Functionalities
+```bash
 1. User Registration and Login
     Users can register and log in as customers or admins.
 2. Product Browsing
@@ -133,13 +138,16 @@ csv_import_project/
     Basic error handling for invalid input and unauthorized access.
 8. Session Management
     User sessions are managed for authentication and authorization.
+```
 
 ### Testing
+```bash
 The application includes unit tests for key functionalities:
     - User registration and login
     - Product listing and detail views
     - Order placement
     - Admin dashboard access
+```
 
 ### Run the tests using:
     python manage.py test importer
